@@ -37,7 +37,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_None_anytls_11
+- name: United States_Los Angeles_anytls_11
   type: anytls
   server: anytls2.864106.xyz
   port: 19000
@@ -187,7 +187,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - Germany_None_hysteria_01
-  - United States_None_anytls_11
+  - United States_Los Angeles_anytls_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
@@ -206,7 +206,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - Germany_None_hysteria_01
-  - United States_None_anytls_11
+  - United States_Los Angeles_anytls_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
