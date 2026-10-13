@@ -124,31 +124,31 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hy_1
+- name: United States_None_hy_1
   type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  ports: 23556
-  auth_str: github.com/Alvin9999-newpac/fanqiang
+  server: 107.149.207.185
+  port: 443
+  ports: 443
+  auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
-- name: France_None_hy_2
+- name: United States_None_hy_2
   type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  ports: 23556
-  auth_str: github.com/Alvin9999-newpac/fanqiang
+  server: 107.149.207.185
+  port: 443
+  ports: 443
+  auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -195,8 +195,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hy_1
-  - France_None_hy_2
+  - United States_None_hy_1
+  - United States_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
 - name: 自动选择
@@ -214,8 +214,8 @@ proxy-groups:
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
-  - France_None_hy_1
-  - France_None_hy_2
+  - United States_None_hy_1
+  - United States_None_hy_2
   - Germany_None_hy_3
   - Germany_None_hy_4
 rules:
