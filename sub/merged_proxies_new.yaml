@@ -82,9 +82,9 @@ proxies:
   protocol: udp
   up: 20 Mbps
   down: 20 Mbps
-- name: France_None_hysteria_51
+- name: France_Sarcelles_hysteria_51
   type: hysteria
-  server: 62.210.70.191
+  server: 62.210.28.175
   port: 24667
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -197,7 +197,7 @@ proxy-groups:
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
-  - France_None_hysteria_51
+  - France_Sarcelles_hysteria_51
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
@@ -216,7 +216,7 @@ proxy-groups:
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
-  - France_None_hysteria_51
+  - France_Sarcelles_hysteria_51
   - France_None_hysteria_61
   - France_None_hysteria_71
   - France_None_hysteria_81
