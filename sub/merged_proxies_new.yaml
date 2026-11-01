@@ -37,18 +37,18 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Taipei_hysteria_11
+- name: France_None_hysteria_11
   type: hysteria
-  server: tw-25.497489.xyz
-  port: 10099
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: tw-25.497489.xyz
-  skip-cert-verify: false
+  server: 163.172.117.163
+  port: 36699
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
   protocol: udp
-  up: 20 Mbps
-  down: 20 Mbps
+  up: 11 Mbps
+  down: 55 Mbps
 - name: United States_None_hysteria_21
   type: hysteria
   server: 198.200.57.142
@@ -193,7 +193,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - Germany_None_hysteria_01
-  - Taiwan_Taipei_hysteria_11
+  - France_None_hysteria_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
@@ -212,7 +212,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - Germany_None_hysteria_01
-  - Taiwan_Taipei_hysteria_11
+  - France_None_hysteria_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
   - Taiwan_Taipei_hysteria_41
