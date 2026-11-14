@@ -70,7 +70,7 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   udp: true
   multiplexing: MULTIPLEXING_LOW
-- name: Taiwan_Hsinchu_hysteria_41
+- name: Taiwan_Shenkeng District_hysteria_41
   type: hysteria
   server: tw-25.497489.xyz
   port: 10099
@@ -196,7 +196,7 @@ proxy-groups:
   - France_None_hysteria_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
-  - Taiwan_Hsinchu_hysteria_41
+  - Taiwan_Shenkeng District_hysteria_41
   - France_Sarcelles_hysteria_51
   - France_None_hysteria_61
   - France_None_hysteria_71
@@ -215,7 +215,7 @@ proxy-groups:
   - France_None_hysteria_11
   - United States_None_hysteria_21
   - United States_None_mieru_31
-  - Taiwan_Hsinchu_hysteria_41
+  - Taiwan_Shenkeng District_hysteria_41
   - France_Sarcelles_hysteria_51
   - France_None_hysteria_61
   - France_None_hysteria_71
